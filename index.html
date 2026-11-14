@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Undangan pernikahan Fulan & Fulana, Minggu 20 Desember 2026." />
+  <meta name="theme-color" content="#4f5d45" />
+  <title>Undangan Pernikahan Fulan &amp; Fulana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Great+Vibes&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">The Wedding Of</p>
+      <h1 class="names">Fulan <span class="amp">&amp;</span> Fulana</h1>
+      <div class="divider" aria-hidden="true"></div>
+      <p class="date"><time datetime="2026-12-20">Minggu, 20 Desember 2026</time></p>
+      <p class="section-sub" style="margin-bottom:0">
+        Kepada Yth. <strong id="guest-name">Bapak/Ibu/Saudara/i</strong>
+      </p>
+      <a href="#acara" class="btn btn-open" id="open-invitation">Buka Undangan</a>
+    </div>
+  </header>
+
+  <main>
+    <section aria-label="Kutipan">
+      <div class="container reveal">
+        <blockquote class="quote">
+          <p>&ldquo;Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup dari jenismu sendiri, supaya kamu merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang.&rdquo;</p>
+          <cite>QS. Ar-Rum: 21</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="countdown-section" class="alt" aria-labelledby="countdown-title">
+      <div class="container reveal">
+        <h2 id="countdown-title" class="section-title">Menuju Hari Bahagia</h2>
+        <p class="section-sub">Menghitung waktu hingga hari yang kami nantikan.</p>
+        <div id="countdown" class="countdown" role="timer" aria-live="off">
+          <div class="count-box"><span id="cd-days" class="count-num">0</span><span class="count-label">Hari</span></div>
+          <div class="count-box"><span id="cd-hours" class="count-num">00</span><span class="count-label">Jam</span></div>
+          <div class="count-box"><span id="cd-minutes" class="count-num">00</span><span class="count-label">Menit</span></div>
+          <div class="count-box"><span id="cd-seconds" class="count-num">00</span><span class="count-label">Detik</span></div>
+        </div>
+        <p id="countdown-done" class="count-done" hidden>Alhamdulillah, hari bahagia telah tiba.</p>
+      </div>
+    </section>
+
+    <section id="acara" aria-labelledby="event-title" tabindex="-1">
+      <div class="container">
+        <h2 id="event-title" class="section-title reveal">Rangkaian Acara</h2>
+        <p class="section-sub reveal">Dengan memohon rahmat Allah SWT, kami bermaksud menyelenggarakan acara pernikahan kami.</p>
+        <div class="events">
+          <article class="event-card reveal">
+            <h3>Akad Nikah</h3>
+            <dl>
+              <div><dt>Tanggal</dt><dd>Minggu, 20 Desember 2026</dd></div>
+              <div><dt>Waktu</dt><dd>08.00 &ndash; 10.00 WIB</dd></div>
+              <div><dt>Tempat</dt><dd>Masjid Al-Ikhlas<br />Jl. Melati No. 12, Jakarta</dd></div>
+            </dl>
+            <a class="btn" href="https://maps.google.com/?q=Masjid+Al-Ikhlas+Jakarta" target="_blank" rel="noopener noreferrer">Lihat Lokasi</a>
+          </article>
+          <article class="event-card reveal">
+            <h3>Resepsi</h3>
+            <dl>
+              <div><dt>Tanggal</dt><dd>Minggu, 20 Desember 2026</dd></div>
+              <div><dt>Waktu</dt><dd>11.00 &ndash; 14.00 WIB</dd></div>
+              <div><dt>Tempat</dt><dd>Gedung Serbaguna Kenanga<br />Jl. Kenanga No. 8, Jakarta</dd></div>
+            </dl>
+            <a class="btn" href="https://maps.google.com/?q=Gedung+Serbaguna+Kenanga+Jakarta" target="_blank" rel="noopener noreferrer">Lihat Lokasi</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt" aria-labelledby="gallery-title">
+      <div class="container">
+        <h2 id="gallery-title" class="section-title reveal">Galeri</h2>
+        <p class="section-sub reveal">Sekelumit momen perjalanan kami.</p>
+        <div class="gallery reveal">
+          <div class="photo wide" role="img" aria-label="Foto placeholder 1">Foto 1</div>
+          <div class="photo" role="img" aria-label="Foto placeholder 2">Foto 2</div>
+          <div class="photo" role="img" aria-label="Foto placeholder 3">Foto 3</div>
+          <div class="photo" role="img" aria-label="Foto placeholder 4">Foto 4</div>
+          <div class="photo" role="img" aria-label="Foto placeholder 5">Foto 5</div>
+          <div class="photo wide" role="img" aria-label="Foto placeholder 6">Foto 6</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rsvp" aria-labelledby="rsvp-title">
+      <div class="container">
+        <h2 id="rsvp-title" class="section-title reveal">Konfirmasi Kehadiran</h2>
+        <p class="section-sub reveal">Mohon konfirmasi kehadiran Anda dan sampaikan doa terbaik untuk kami.</p>
+        <form id="rsvp-form" class="rsvp-form reveal" novalidate>
+          <div class="field">
+            <label for="rsvp-name">Nama</label>
+            <input id="rsvp-name" name="name" type="text" autocomplete="name" required />
+          </div>
+          <fieldset class="field">
+            <legend>Kehadiran</legend>
+            <div class="radio-group">
+              <label><input type="radio" name="attendance" value="hadir" required /> Hadir</label>
+              <label><input type="radio" name="attendance" value="tidak" /> Tidak Hadir</label>
+              <label><input type="radio" name="attendance" value="ragu" /> Masih Ragu</label>
+            </div>
+          </fieldset>
+          <div class="field">
+            <label for="rsvp-guests">Jumlah Tamu</label>
+            <select id="rsvp-guests" name="guests">
+              <option value="1">1 orang</option>
+              <option value="2">2 orang</option>
+              <option value="3">3 orang</option>
+              <option value="4">4 orang</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="rsvp-message">Ucapan &amp; Doa</label>
+            <textarea id="rsvp-message" name="message" maxlength="300"></textarea>
+          </div>
+          <button type="submit" class="btn">Kirim Konfirmasi</button>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+        <ul id="wishes" class="wishes" aria-label="Ucapan tamu"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu.</p>
+    <p class="names">Fulan &amp; Fulana</p>
+    <p>Kami yang berbahagia, keluarga besar kedua mempelai.</p>
+    <small>&copy; 2026 Fulan &amp; Fulana</small>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
